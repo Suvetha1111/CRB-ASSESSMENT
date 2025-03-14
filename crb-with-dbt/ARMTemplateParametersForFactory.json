@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "crb-with-dbt"
+		},
+		"Snowflake1_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"Snowflake1_properties_typeProperties_database": {
+			"value": "CRBFITNESS"
+		},
+		"Snowflake1_properties_typeProperties_host": {
+			"value": "MAEYKSE-KSB03468.snowflakecomputing.com"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "DHIYASENBA"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "DHIYASENBA\\ADMIN"
+		},
+		"linkedService1_sasUri": {
+			"value": ""
+		}
+	}
+}
