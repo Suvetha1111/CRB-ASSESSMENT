@@ -1,0 +1,9 @@
+{
+	"name": "crb-with-dbt",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1e3e35c8-bfe0-4fd2-b740-7b13d17e6efb",
+		"tenantId": "7e570cab-5653-4444-bfe7-9f77257577f2"
+	}
+}
